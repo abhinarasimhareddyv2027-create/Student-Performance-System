@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and local configuration
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Local databases, backups, and personal data
+*.sqlite
+*.sqlite3
+*.db
+*.db-*
+backups/
+sample_data/private/
+
+# User-managed assets and logs
+user_data/
+logs/
+*.log
+
+# Web frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env.local
+frontend/.env.*.local
+
+# Packaging/build outputs
+build/
+dist/
+*.spec
